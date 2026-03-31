@@ -1,6 +1,6 @@
 # 🛒 Shoedog E-commerce
 
-A modern, minimal e-commerce web application built using Django, featuring a clean UI, cart functionality, and dynamic user interactions.
+A clean and minimal e-commerce web application built using Django, featuring product browsing, cart management, and user authentication.
 
 ---
 
@@ -9,10 +9,10 @@ A modern, minimal e-commerce web application built using Django, featuring a cle
 * 🏠 Product listing homepage
 * 🔐 User authentication (Login / Signup / Logout)
 * 🛒 Add to cart functionality
-* 🔄 Dynamic quantity updates (AJAX-based)
-* 💰 Real-time subtotal calculation
-* 📦 Cart management system
-* 🎯 Clean and responsive UI (Bootstrap)
+* ➕➖ Quantity management (increase / decrease items)
+* 💰 Subtotal and total price calculation
+* 📦 Cart page with structured UI
+* 🎯 Responsive design using Bootstrap
 
 ---
 
@@ -20,23 +20,24 @@ A modern, minimal e-commerce web application built using Django, featuring a cle
 
 ### 🏠 Homepage
 
-![Homepage](IMAGE_URL_HERE)
+![Homepage](assets/Screenshot%20(866).png)
 
 ### 🔐 Login Page
 
-![Login](IMAGE_URL_HERE)
+![Login](assets/Screenshot%20(864).png)
 
 ### 📝 Signup Page
 
-![Signup](IMAGE_URL_HERE)
+![Signup](assets/Screenshot%20(865).png)
 
 ### 🛒 Cart Page
 
-![Cart](IMAGE_URL_HERE)
+![Cart](assets/Screenshot%20(867).png)
+![Cart](assets/Screenshot%20(868).png)
 
 ### 💳 Checkout Page
 
-![Checkout](IMAGE_URL_HERE)
+![Checkout](![Cart](assets/Screenshot%20(869).png))
 
 ---
 
@@ -44,8 +45,8 @@ A modern, minimal e-commerce web application built using Django, featuring a cle
 
 * **Backend:** Django
 * **Frontend:** HTML, CSS, Bootstrap
-* **JavaScript:** Fetch API (AJAX)
 * **Database:** SQLite
+* **Templating:** Django Templates
 
 ---
 
@@ -64,8 +65,8 @@ cd shoedog-ecommerce
 
 ```bash
 python -m venv env
-source env/bin/activate   # Mac/Linux
 env\Scripts\activate      # Windows
+# source env/bin/activate # Mac/Linux
 ```
 
 ---
@@ -112,19 +113,19 @@ shoedog/
 
 ## 🎯 Key Highlights
 
-* Uses **One-to-One relationship** for user-cart mapping
-* Implements **AJAX for seamless UI updates (no page reloads)**
-* Clean separation of frontend and backend logic
-* Designed with scalability and readability in mind
+* Uses **One-to-One relationship** to link user and cart
+* Implements **server-side rendering with Django templates**
+* Clean UI built using Bootstrap
+* Modular structure for scalability
 
 ---
 
 ## 🔮 Future Improvements
 
+* AJAX-based cart updates (no page reloads)
 * Payment gateway integration (Stripe/Razorpay)
 * Order history & tracking
 * Product search & filters
-* Admin dashboard enhancements
 
 ---
 
