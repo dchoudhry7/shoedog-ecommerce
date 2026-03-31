@@ -37,7 +37,7 @@ A clean and minimal e-commerce web application built using Django, featuring pro
 
 ### 💳 Checkout Page
 
-![Checkout](![Cart](assets/Screenshot%20(869).png))
+![Checkout](assets/Screenshot%20(869).png)
 
 ---
 
