@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-+*jd8yxy3-n#$0rfado+i16!tjplyj@j+ibn7e+ll6z7&-1593
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['shoedog-ecommerce.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
